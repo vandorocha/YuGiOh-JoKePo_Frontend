@@ -92,8 +92,9 @@
     display: flex;
     flex-direction: column;
     padding-top: 0.1rem;
+    justify-items: center;
+    align-content: center;
     height: 300px;
-    margin-top: 5rem;
 }
 
 .versus-top, .versus-bottom{
@@ -134,4 +135,9 @@
 
 .card:hover{
     transform: scale(1.2);
+}
+
+
+.debug{
+    border: solid 1px red;
 }
